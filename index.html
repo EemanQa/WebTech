@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - InnoVision</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your custom styles -->
+  <style>
+    .header-section {
+      background-color: #E2F1E7; /* Light background */
+      background-image: url('../Images/header-bg.jpg'); /* Add a background image */
+      background-size: cover; /* Make sure the image covers the entire section */
+      background-position: center; /* Center the background image */
+      padding: 100px 0; /* Increased padding for more height */
+      text-align: center;
+      color: #243642; /* Dark color for text */
+    }
+    .header-section h1 {
+      font-size: 3em; /* Larger font size */
+      font-weight: bold; /* Bold heading */
+      margin-bottom: 20px; /* Space below the heading */
+      color: #243642; /* Heading color */
+    }
+    .header-section p {
+      font-size: 1.5em; /* Larger text size for the subheading */
+      color: #387478; /* Subheading color */
+      margin-bottom: 30px; /* Add space below the paragraph */
+    }
+    .header-logo {
+      max-width: 150px; /* Set maximum width for the logo */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 50%; /* Make the logo round */
+      border: 2px solid #387478; /* Border for better visibility */
+      background-color: transparent;
+      margin-bottom: 20px;
+    }
+    .cta-button {
+      padding: 10px 30px; /* Button padding */
+      background-color: #387478; /* Button background color */
+      color: #fff; /* Button text color */
+      border: none;
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1.2em;
+      transition: background-color 0.3s ease; /* Smooth hover transition */
+    }
+    .cta-button:hover {
+      background-color: #243642; /* Change color on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #243642;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">InnoVision</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <div class="header-section container-fluid">
+    <img src="../Images/logo2.jpg" class="header-logo" alt="Logo"> <!-- Centered Logo -->
+    <h1>Transforming Ideas into Digital Solutions</h1>
+    <p>We specialize in crafting tailored digital experiences that empower businesses to thrive in the digital landscape.</p>
+    <a href="about.html" class="cta-button">Learn More</a> <!-- Call to Action Button -->
+  </div>
+
+  <!-- Services Section -->
+  <div class="container my-5">
+    <h2 style="color: #243642;">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../Images/img1.jpg" class="card-img-top" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Cloud Composer</h5>
+            <p class="card-text">A managed Apache Airflow service for creating, scheduling, and monitoring data pipelines.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../Images/img3.jpg" class="card-img-top" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce Website</h5>
+            <p class="card-text">GCP's compute, storage, and database services can be used to build scalable and reliable e-commerce platforms.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../Images/img2.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Social Media Platforms</h5>
+            <p class="card-text">GCP's scalable infrastructure and data processing capabilities can be used to build social media platforms with millions of users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest Comments Section -->
+  <div class="container my-5">
+    <h2 style="color: #243642;">Latest Comments</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Maha A.</h5>
+            <div class="rating" style="color: #FFD700;"> ★★★★★ </div> <!-- 5 Stars -->
+            <p class="card-text">"Great service! Highly recommend."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Daud Q.</h5>
+            <div class="rating" style="color: #FFD700;"> ★★★★☆ </div> <!-- 4 Stars -->
+            <p class="card-text">"Professional and efficient."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Hamza K.</h5>
+            <div class="rating" style="color: #FFD700;"> ★★★☆☆ </div> <!-- 3 Stars -->
+            <p class="card-text">"Fantastic results, will use again!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-black text-white text-center py-4">
+    <p>&copy; 2024 InnoVision. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

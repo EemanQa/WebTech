@@ -1,0 +1,101 @@
+/* Custom Color Palette */
+:root {
+  --dark-teal: #243642;      /* Dark Teal */
+  --medium-teal: #387478;    /* Medium Teal */
+  --light-teal: #629584;      /* Light Teal */
+  --soft-mint: #E2F1E7;       /* Soft Mint */
+}
+
+/* General Styling */
+body {
+  background-color: var(--soft-mint); /* Soft Mint for the main background */
+  color: var(--dark-teal);            /* Dark Teal for text */
+  font-family: 'Roboto', sans-serif;  /* Font style */
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--dark-teal); /* Dark Teal for the navbar */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--soft-mint); /* Light text on dark background */
+}
+
+.navbar .nav-link:hover {
+  color: var(--medium-teal); /* Change link color on hover */
+}
+
+/* Header Section */
+.header-section {
+  background-color: var(--soft-mint); /* Light background for contrast */
+  padding: 60px 0; /* Increased padding for more space */
+  text-align: left; /* Left-align text */
+}
+
+.header-section h1 {
+  color: var(--dark-teal); /* Dark color for the main heading */
+  font-size: 2.5em; /* Larger font size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.header-section p {
+  font-size: 1.2em; /* Increase text size for the subheading */
+  color: var(--medium-teal); /* Color for the subheading */
+}
+
+.header-logo {
+  max-width: 150px; /* Set maximum width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the logo round */
+  border: 2px solid var(--medium-teal); /* Optional: Add a border for better visibility */
+  background-color: transparent; /* Ensure no background */
+}
+
+/* Services Section */
+h2 {
+  color: var(--dark-teal); /* Dark Teal for section headings */
+}
+
+/* Latest Comments Section */
+.rating {
+  color: #FFD700; /* Gold color for ratings */
+}
+
+/* Footer Section */
+footer {
+  background-color: var(--dark-teal); /* Dark Teal for footer */
+  color: var(--soft-mint); /* Light text for footer */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Section Styles */
+section {
+  padding: 40px 0; /* Uniform padding for sections */
+}
+
+/* Links */
+a {
+  color: var(--dark-teal); /* Dark Teal for links */
+}
+
+a:hover {
+  color: var(--medium-teal); /* Medium Teal on hover */
+}
+
+/* Additional Styles */
+.card-title {
+  color: var(--dark-teal); /* Dark Teal for card titles */
+}
+
+/* Specific Styles for the About Me Header */
+.about-heading {
+  background-color: var(--soft-mint); /* Soft Mint for About Me section */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Center text */
+  margin-bottom: 40px; /* Space below the heading */
+}

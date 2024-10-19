@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - InnoVision</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .service-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.2s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+    }
+    .service-icon {
+      font-size: 40px;
+      color: #387478; /* Your chosen color */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">InnoVision</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4"><strong>Our Services</strong></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="service-card text-center">
+          <div class="service-icon"><i class="fas fa-desktop"></i></div>
+          <h3><b>Interface Design</b></h3>
+          <p>Creating user-friendly interfaces that enhance user experience:</p>
+          <ul class="list-unstyled">
+            <li>Intuitive navigation</li>
+            <li>Optimized layouts</li>
+            <li>Cross-device compatibility</li>
+          </ul>
+          <img src="../Images/interface.jpg" alt="Interface Design" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card text-center">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3><b>Logo Design</b></h3>
+          <p>Designing unique logos that represent your brand identity:</p>
+          <ul class="list-unstyled">
+            <li>Memorable designs</li>
+            <li>Versatile applications</li>
+            <li>Consistent branding</li>
+          </ul>
+          <img src="../Images/logo3.jpeg" alt="Logo Design" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card text-center">
+          <div class="service-icon"><i class="fas fa-search"></i></div>
+          <h3><b>SEO Optimization</b></h3>
+          <p>Optimizing your website for better search engine visibility:</p>
+          <ul class="list-unstyled">
+            <li>Keyword research</li>
+            <li>On-page techniques</li>
+            <li>Quality backlinks</li>
+          </ul>
+          <img src="../Images/seo.jpg" alt="SEO Optimization" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Additional Services Section -->
+    <div class="row">
+      <div class="col-md-12 text-center my-4">
+        <h3><b>Other Services</b></h3>
+        <p>In addition to our main services, we also offer:</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">Content Writing</li>
+          <li class="list-inline-item">Social Media Management</li>
+          <li class="list-inline-item">Email Marketing</li>
+          <li class="list-inline-item">Web Hosting</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="contact.html" class="btn btn-primary mt-4">Get a Custom Quote</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 InnoVision. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
